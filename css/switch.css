@@ -1,0 +1,28 @@
+  .light-theme {
+    --themeDropDownBg: var(--goldCrayola);
+    --themeIconBorderColor: var(--sage);
+    --navBg: rgb(39, 39, 39);
+    --navLinkHoverBg: var(--paleSpringBud);
+    --mainBg: var(--goldCrayola);
+    --fontColor: var(--black);
+  }
+  
+  .fixed {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index:99;
+}
+
+  * {
+    color: var(--fontColor);
+  }
+  
+  nav {
+    background: var(--navBg);
+  }
+  
+  nav ul li:hover {
+    background-color: var(--navLinkHoverBg);
+  }
